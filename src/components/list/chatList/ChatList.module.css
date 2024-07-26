@@ -1,0 +1,9 @@
+.chatList {
+  height: calc(100% - 90px);
+
+  .chatList__container {
+    height: calc(100% - 60px);
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+}

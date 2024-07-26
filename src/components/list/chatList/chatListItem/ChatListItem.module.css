@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-bottom: 1px solid var(--border-color);
+  transition-duration: 0.1s;
+
+  &.selected {
+    background-color: var(--background-color);
+  }
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1.4);
+  }
+
+  .avatar_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .name {
+      font-weight: bold;
+    }
+
+    .message {
+      font-size: var(--font-size-sm);
+    }
+  }
+}
