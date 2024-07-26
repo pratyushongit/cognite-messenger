@@ -1,0 +1,21 @@
+.input {
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: var(--text-color-primary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fallback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-secondary);
+}
